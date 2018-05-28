@@ -1,0 +1,21 @@
+@import "colors";
+@import "main";
+@import "navigation";
+@import "footer";
+@import "imports";
+@import "contact";
+@import "aboutus";
+@import "gallery";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body{
+    background-color: $m-bcg-c;
+    color: $m-txt-c;
+    overflow-x: hidden;
+}
